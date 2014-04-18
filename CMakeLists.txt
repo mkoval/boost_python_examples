@@ -23,4 +23,4 @@ include_directories(${Boost_INCLUDE_DIRS})
 
 add_library(bp_class SHARED src/bp_class.cpp)
 set_target_properties(bp_class PROPERTIES PREFIX "" SUFFIX ".so")
-target_link_libraries(bp_class boost-python)
+target_link_libraries(bp_class boost_python)

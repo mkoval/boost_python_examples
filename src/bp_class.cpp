@@ -8,6 +8,6 @@ static std::string hello_world()
 
 BOOST_PYTHON_MODULE(bp_class)
 {
-    //using namespace boost::python;
-    //def("hello_world", &hello_world);
+    using namespace boost::python;
+    def("hello_world", &hello_world);
 }
